@@ -18,39 +18,23 @@
       <aggregator>false</aggregator>
       <requiresOnline>false</requiresOnline>
       <inheritedByDefault>true</inheritedByDefault>
+      <phase>package</phase>
       <implementation>com.platformoon.mojos.GenerateInfoMojo</implementation>
-      <language>java</language>
-      <instantiationStrategy>per-lookup</instantiationStrategy>
-      <executionStrategy>once-per-session</executionStrategy>
-      <threadSafe>false</threadSafe>
-      <parameters/>
-    </mojo>
-    <mojo>
-      <goal>touch</goal>
-      <description>Goal which touches a timestamp file.</description>
-      <requiresDirectInvocation>false</requiresDirectInvocation>
-      <requiresProject>true</requiresProject>
-      <requiresReports>false</requiresReports>
-      <aggregator>false</aggregator>
-      <requiresOnline>false</requiresOnline>
-      <inheritedByDefault>true</inheritedByDefault>
-      <phase>process-sources</phase>
-      <implementation>com.platformoon.MyMojo</implementation>
       <language>java</language>
       <instantiationStrategy>per-lookup</instantiationStrategy>
       <executionStrategy>once-per-session</executionStrategy>
       <threadSafe>false</threadSafe>
       <parameters>
         <parameter>
-          <name>outputDirectory</name>
-          <type>java.io.File</type>
-          <required>true</required>
+          <name>launchMode</name>
+          <type>java.lang.String</type>
+          <required>false</required>
           <editable>true</editable>
-          <description>Location of the file.</description>
+          <description></description>
         </parameter>
       </parameters>
       <configuration>
-        <outputDirectory implementation="java.io.File">${project.build.directory}</outputDirectory>
+        <launchMode implementation="java.lang.String" default-value="default">${launchMode}</launchMode>
       </configuration>
     </mojo>
   </mojos>
