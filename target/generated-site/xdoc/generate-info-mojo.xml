@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>speckies:generate-info</title>
+  </properties>
+  <body>
+    <section name="speckies:generate-info">
+      <p><strong>Full name</strong>:</p>
+      <p>com.platformoon:speckies-maven-plugin:0.0.1-SNAPSHOT:generate-info</p>
+      <p><strong>Description</strong>:</p>
+      <div>(no description)</div>
+      <p><strong>Attributes</strong>:</p>
+      <ul>
+        <li>Requires a Maven project to be executed.</li>
+      </ul>
+      <subsection name="Parameters">
+        <p>(no parameters)</p>
+      </subsection>
+    </section>
+  </body>
+</document>

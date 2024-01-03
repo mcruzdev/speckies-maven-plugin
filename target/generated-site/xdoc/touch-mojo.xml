@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>speckies:touch</title>
+  </properties>
+  <body>
+    <section name="speckies:touch">
+      <p><strong>Full name</strong>:</p>
+      <p>com.platformoon:speckies-maven-plugin:0.0.1-SNAPSHOT:touch</p>
+      <p><strong>Description</strong>:</p>
+      <div>Goal which touches a timestamp file.</div>
+      <p><strong>Attributes</strong>:</p>
+      <ul>
+        <li>Requires a Maven project to be executed.</li>
+        <li>Binds by default to the <a href="http://maven.apache.org/ref/current/maven-core/lifecycles.html">lifecycle phase</a>: <code>process-sources</code>.</li>
+      </ul>
+      <subsection name="Required Parameters">
+        <table border="0">
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Since</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><code><a href="#outputDirectory">&lt;outputDirectory&gt;</a></code></td>
+            <td><code>File</code></td>
+            <td><code>-</code></td>
+            <td>Location of the file.<br/><strong>User property is</strong>: <code>project.build.directory</code>.<br/></td>
+          </tr>
+        </table>
+      </subsection>
+      <subsection name="Parameter Details">
+        <h4><strong><a name="outputDirectory">&lt;outputDirectory&gt;</a></strong></h4>
+        <div>Location of the file.</div>
+        <ul>
+          <li><strong>Type</strong>: <code>java.io.File</code></li>
+          <li><strong>Required</strong>: <code>Yes</code></li>
+          <li><strong>User Property</strong>: <code>project.build.directory</code></li>
+        </ul>
+      </subsection>
+    </section>
+  </body>
+</document>
